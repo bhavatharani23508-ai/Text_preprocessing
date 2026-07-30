@@ -1,0 +1,77 @@
+========== RAW DATA ==========
+   ID                                       Conversation
+0   1  Hi 😊 I can't login to my account! Visit https:...
+1   2  Order #12345 is delayed 😭 Please help @ShopSup...
+2   3              Email me at user123@gmail.com ASAP!!!
+3   4        My phone number is +91-9876543210. Call me!
+4   5     <b>Payment Failed</b> 😡 Amount: ₹2500 #Banking
+5   6    Soooo happy 😂😂 I passed my exam!!! #StudentLife
+6   7  I'm booking a flight ✈️ to Delhi. https://trav...
+7   8              Food arrived late 🍕💔 Order ID: FD5678
+8   9              Doctor, I've had a fever for 2 days 🤒
+9  10         Laptop isn't working!!! Error Code: E404 😩
+
+========== ORIGINAL TEXT ==========
+Hi 😊 I can't login to my account! Visit https://help.com
+
+URL Found:
+['https://help.com']
+
+Hashtags:
+[]
+
+Search Result: 'login' Found
+
+Split Result:
+['Hi', '😊', 'I', "can't", 'login', 'to', 'my', 'account!', 'Visit', 'https://help.com']
+
+========== CLEANED DATA ==========
+   ID                                       Conversation  \
+0   1  Hi 😊 I can't login to my account! Visit https:...   
+1   2  Order #12345 is delayed 😭 Please help @ShopSup...   
+2   3              Email me at user123@gmail.com ASAP!!!   
+3   4        My phone number is +91-9876543210. Call me!   
+4   5     <b>Payment Failed</b> 😡 Amount: ₹2500 #Banking   
+5   6    Soooo happy 😂😂 I passed my exam!!! #StudentLife   
+6   7  I'm booking a flight ✈️ to Delhi. https://trav...   
+7   8              Food arrived late 🍕💔 Order ID: FD5678   
+8   9              Doctor, I've had a fever for 2 days 🤒   
+9  10         Laptop isn't working!!! Error Code: E404 😩   
+
+                                          lower_text  \
+0  hi 😊 i can't login to my account! visit https:...   
+1  order #12345 is delayed 😭 please help @shopsup...   
+2              email me at user123@gmail.com asap!!!   
+3        my phone number is +91-9876543210. call me!   
+4     <b>payment failed</b> 😡 amount: ₹2500 #banking   
+5    soooo happy 😂😂 i passed my exam!!! #studentlife   
+6  i'm booking a flight ✈️ to delhi. https://trav...   
+7              food arrived late 🍕💔 order id: fd5678   
+8              doctor, i've had a fever for 2 days 🤒   
+9         laptop isn't working!!! error code: e404 😩   
+
+                                          upper_text  \
+0  HI 😊 I CAN'T LOGIN TO MY ACCOUNT! VISIT HTTPS:...   
+1  ORDER #12345 IS DELAYED 😭 PLEASE HELP @SHOPSUP...   
+2              EMAIL ME AT USER123@GMAIL.COM ASAP!!!   
+3        MY PHONE NUMBER IS +91-9876543210. CALL ME!   
+4     <B>PAYMENT FAILED</B> 😡 AMOUNT: ₹2500 #BANKING   
+5    SOOOO HAPPY 😂😂 I PASSED MY EXAM!!! #STUDENTLIFE   
+6  I'M BOOKING A FLIGHT ✈️ TO DELHI. HTTPS://TRAV...   
+7              FOOD ARRIVED LATE 🍕💔 ORDER ID: FD5678   
+8              DOCTOR, I'VE HAD A FEVER FOR 2 DAYS 🤒   
+9         LAPTOP ISN'T WORKING!!! ERROR CODE: E404 😩   
+
+                          cleaned_text  
+0  hi i cant login to my account visit  
+1         order is delayed please help  
+2                     email me at asap  
+3           my phone number is call me  
+4                payment failed amount  
+5         soooo happy i passed my exam  
+6         im booking a flight to delhi  
+7        food arrived late order id fd  
+8      doctor ive had a fever for days  
+9     laptop isnt working error code e  
+
+Cleaning Completed Successfully!
